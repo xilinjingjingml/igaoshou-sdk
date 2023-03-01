@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>game</key>
+	<array>
+		<dict>
+			<key>PacketName</key>
+			<!--string>com.hechengmj.ios</string-->
+			<!--string>com.izhangxin.qqhelobby.android.weiping</string-->
+			<!--string>com.izhangxin.circle.ios</string-->
+			<string>com.izhangxin.circle.android.weiping</string>
+			<!--string>com.dhdstudio.qi.chun</string-->
+		</dict>
+	</array>
+	<key>plugins</key>
+	<array>		
+		<dict>
+      		<key>name</key>
+			<string>SessionLenovo</string>
+			<key>type</key>
+			<string>5</string>
+			<key>tag</key>
+			<string>2</string>
+		</dict>
+		<dict>
+      		<key>name</key>
+			<string>ExtendLenovo</string>
+			<key>type</key>
+			<string>6</string>
+			<key>tag</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PlatformWP</string>
+			<key>type</key>
+			<string>9</string>
+			<key>default</key>
+			<string>1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

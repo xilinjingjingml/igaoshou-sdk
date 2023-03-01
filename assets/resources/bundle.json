@@ -1,0 +1,13 @@
+{
+    "name": "resources",
+    "bundle": "resources",
+    "description": "",
+    "versionName": "1.0.0",
+    "versionCode": 1,
+    "run": {
+        "mainScene": "",
+        "mainPage": ""
+    },
+    "events": {},
+    "isAutoRun": false
+}

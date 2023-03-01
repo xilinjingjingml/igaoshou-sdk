@@ -1,0 +1,184 @@
+[33m3837a23[m[33m ([m[1;36mHEAD -> [m[1;32m3.0-v2[m[33m)[m HEAD@{0}: pull origin 3.0-v2: Merge made by the 'recursive' strategy.
+[33md641ee5[m HEAD@{1}: commit: 提交比分流程更新
+[33mbf257d4[m HEAD@{2}: pull origin 3.0-v2: Fast-forward
+[33m9a9e2a6[m[33m ([m[1;33mtag: v0.4.0.49-beta[m[33m)[m HEAD@{3}: commit: 更新版本号
+[33m01da32b[m HEAD@{4}: pull origin 3.0-v2: Merge made by the 'recursive' strategy.
+[33mb5398b9[m HEAD@{5}: commit: 更新版本号
+[33m598fdad[m HEAD@{6}: commit: 合并oppo vivo 字节广告 修改游戏结果展示 修复bug
+[33m6b5adab[m HEAD@{7}: commit: 修复登陆错误
+[33m54be301[m HEAD@{8}: commit: 加入插屏广告 更新登录接口
+[33m743a92d[m HEAD@{9}: commit: banner接口合并
+[33mba6923d[m HEAD@{10}: commit: banner接口合并
+[33m090031b[m HEAD@{11}: commit: 大厅加载优化 项目结构拆分
+[33m34712aa[m[33m ([m[1;33mtag: v0.4.0.42-beta[m[33m, [m[1;31morigin/3.0[m[33m, [m[1;32m3.0[m[33m)[m HEAD@{12}: reset: moving to 3.0-v2
+[33m34712aa[m[33m ([m[1;33mtag: v0.4.0.42-beta[m[33m, [m[1;31morigin/3.0[m[33m, [m[1;32m3.0[m[33m)[m HEAD@{13}: reset: moving to HEAD
+[33m34712aa[m[33m ([m[1;33mtag: v0.4.0.42-beta[m[33m, [m[1;31morigin/3.0[m[33m, [m[1;32m3.0[m[33m)[m HEAD@{14}: checkout: moving from 3.0 to 3.0-v2
+[33m34712aa[m[33m ([m[1;33mtag: v0.4.0.42-beta[m[33m, [m[1;31morigin/3.0[m[33m, [m[1;32m3.0[m[33m)[m HEAD@{15}: pull origin 3.0: Fast-forward
+[33m69a4342[m[33m ([m[1;33mtag: v0.4.0.39-beta[m[33m)[m HEAD@{16}: pull origin 3.0: Fast-forward
+[33m1ffcf35[m[33m ([m[1;33mtag: v0.4.0.26-beta[m[33m)[m HEAD@{17}: reset: moving to origin/3.0
+[33m3567a5d[m[33m ([m[1;33mtag: v0.4.0.25-beta[m[33m)[m HEAD@{18}: reset: moving to 3.0
+[33m3567a5d[m[33m ([m[1;33mtag: v0.4.0.25-beta[m[33m)[m HEAD@{19}: reset: moving to 3.0
+[33m3567a5d[m[33m ([m[1;33mtag: v0.4.0.25-beta[m[33m)[m HEAD@{20}: commit: 更新版本
+[33m912ab81[m HEAD@{21}: pull origin 3.0: Fast-forward
+[33m4312e02[m[33m ([m[1;33mtag: v0.4.0.24-beta[m[33m)[m HEAD@{22}: commit: 修复进入游戏后回大厅的问题
+[33m7296ed6[m[33m ([m[1;33mtag: v0.4.0.23-beta[m[33m)[m HEAD@{23}: pull origin 3.0: Fast-forward
+[33m4aa4d5d[m HEAD@{24}: pull origin 3.0: Merge made by the 'recursive' strategy.
+[33mc2f35ec[m HEAD@{25}: commit: 大厅加载增加场景判断
+[33m8af088b[m[33m ([m[1;33mtag: v0.4.0.21-beta[m[33m)[m HEAD@{26}: pull origin 3.0: Fast-forward
+[33m02eb645[m[33m ([m[1;33mtag: v0.4.0.14-beta[m[33m)[m HEAD@{27}: pull origin 3.0: Fast-forward
+[33made2e98[m[33m ([m[1;33mtag: v0.4.0.1-beta[m[33m)[m HEAD@{28}: pull origin 3.0: Fast-forward
+[33m1b293d9[m HEAD@{29}: pull origin 3.0: Merge made by the 'recursive' strategy.
+[33m53061b5[m HEAD@{30}: commit: test
+[33mddffed0[m HEAD@{31}: pull origin 3.0: Fast-forward
+[33m5f11821[m[33m ([m[1;33mtag: v0.3.0.6-beta[m[33m)[m HEAD@{32}: reset: moving to 3.0
+[33m5f11821[m[33m ([m[1;33mtag: v0.3.0.6-beta[m[33m)[m HEAD@{33}: reset: moving to HEAD
+[33m5f11821[m[33m ([m[1;33mtag: v0.3.0.6-beta[m[33m)[m HEAD@{34}: pull origin 3.0: Merge made by the 'recursive' strategy.
+[33mc7e1a7f[m HEAD@{35}: commit: 奖券图标更新 活动赛界面更新
+[33m88e4fba[m[33m ([m[1;33mtag: v0.3.0.4-beta[m[33m, [m[1;32m5.0[m[33m)[m HEAD@{36}: checkout: moving from 5.0 to 3.0
+[33m88e4fba[m[33m ([m[1;33mtag: v0.3.0.4-beta[m[33m, [m[1;32m5.0[m[33m)[m HEAD@{37}: checkout: moving from 3.0 to 5.0
+[33m88e4fba[m[33m ([m[1;33mtag: v0.3.0.4-beta[m[33m, [m[1;32m5.0[m[33m)[m HEAD@{38}: commit: 更新对手显示
+[33m73efb9d[m[33m ([m[1;33mtag: v0.3.0.3-beta[m[33m)[m HEAD@{39}: commit: 活动赛优化
+[33m11487e6[m[33m ([m[1;33mtag: v0.3.0.2-beta[m[33m)[m HEAD@{40}: commit: 默认正式环境
+[33mf636fc0[m HEAD@{41}: commit: 活动赛优化
+[33m255d556[m HEAD@{42}: commit: 活动赛更新
+[33m62669e9[m[33m ([m[1;33mtag: v0.3.0.0-beta[m[33m)[m HEAD@{43}: commit: 增加活动赛
+[33m82c901a[m HEAD@{44}: commit: 环境token分离 新作活动赛“
+[33m16f60cb[m[33m ([m[1;33mtag: v0.2.0.2-beta[m[33m, [m[1;32mnewSkin[m[33m)[m HEAD@{45}: checkout: moving from newSkin to 3.0
+[33m16f60cb[m[33m ([m[1;33mtag: v0.2.0.2-beta[m[33m, [m[1;32mnewSkin[m[33m)[m HEAD@{46}: reset: moving to newSkin
+[33m16f60cb[m[33m ([m[1;33mtag: v0.2.0.2-beta[m[33m, [m[1;32mnewSkin[m[33m)[m HEAD@{47}: checkout: moving from newSkin to newSkin
+[33m16f60cb[m[33m ([m[1;33mtag: v0.2.0.2-beta[m[33m, [m[1;32mnewSkin[m[33m)[m HEAD@{48}: commit: 更新新手引导
+[33md849e87[m HEAD@{49}: commit: 更新新手引导 更新打点
+[33m2dd916e[m[33m ([m[1;33mtag: v0.2.0.1-beta[m[33m)[m HEAD@{50}: commit: 新手引导更新
+[33mcbbcfdb[m HEAD@{51}: pull origin newSkin: Fast-forward
+[33m17e92e1[m HEAD@{52}: pull origin newSkin: Fast-forward
+[33m35ad4c9[m HEAD@{53}: commit: 新手引导更新 增加活动主动弹窗 增加banner广告 增加在线参数
+[33m413ce53[m HEAD@{54}: commit: 增加在线比赛的接口 更新游戏比赛流程
+[33mdf66a07[m HEAD@{55}: pull origin newSkin: Fast-forward
+[33m38db4ef[m HEAD@{56}: pull origin newSkin: Fast-forward
+[33m534e702[m HEAD@{57}: commit: 优化主页和商城可滑动
+[33me377acd[m HEAD@{58}: pull origin newSkin: Merge made by the 'recursive' strategy.
+[33m9c70998[m HEAD@{59}: reset: moving to HEAD
+[33m9c70998[m HEAD@{60}: pull origin newSkin: Merge made by the 'recursive' strategy.
+[33mea6b763[m HEAD@{61}: commit: 修复用户为0的问题
+[33m6b4a4c0[m HEAD@{62}: pull origin newSkin: Fast-forward
+[33mbbd8fc3[m HEAD@{63}: pull origin newSkin: Fast-forward
+[33mbc68bdc[m[33m ([m[1;33mtag: v1.3.4-beta[m[33m)[m HEAD@{64}: commit: 版本优化
+[33m4eabdb7[m HEAD@{65}: pull origin newSkin: Fast-forward
+[33mf5ade88[m HEAD@{66}: reset: moving to HEAD
+[33mf5ade88[m HEAD@{67}: reset: moving to HEAD
+[33mf5ade88[m HEAD@{68}: pull origin newSkin: Fast-forward
+[33m4fef489[m HEAD@{69}: pull origin newSkin: Fast-forward
+[33m059e5aa[m HEAD@{70}: pull origin newSkin: Fast-forward
+[33md11f200[m HEAD@{71}: commit: 新皮肤
+[33m1b75625[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{72}: checkout: moving from master to newSkin
+[33m1b75625[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{73}: pull: Fast-forward
+[33m9709011[m[33m ([m[1;33mtag: v1.3.2-release[m[33m)[m HEAD@{74}: pull: Fast-forward
+[33m4dc6f38[m[33m ([m[1;33mtag: v1.3.2-beta[m[33m)[m HEAD@{75}: commit: 更新版本
+[33maf05857[m HEAD@{76}: pull: Fast-forward
+[33m526389c[m[33m ([m[1;33mtag: v1.3.1-beta[m[33m)[m HEAD@{77}: commit: 退赛加入错误处理 修复底部按钮设置问题
+[33m545baf7[m HEAD@{78}: pull: Fast-forward
+[33mb3ba799[m HEAD@{79}: pull: Fast-forward
+[33m52540e8[m HEAD@{80}: commit: 增加unionid
+[33m937858e[m[33m ([m[1;33mtag: v1.3.0-beta[m[33m)[m HEAD@{81}: commit: 更新验签时服务器时间差
+[33m6a2b1fc[m[33m ([m[1;33mtag: v1.2.9-beta[m[33m)[m HEAD@{82}: commit: 更新版本号
+[33mc4f40bf[m HEAD@{83}: commit: 更新微信同步头像 增加任务完成判断 结算界面增加三局判断
+[33m6607d63[m[33m ([m[1;33mtag: v1.2.8-beta[m[33m)[m HEAD@{84}: commit: 微信小程序接口修正验签错误 api接口拆分出init初始化平台
+[33m3d4bc03[m[33m ([m[1;33mtag: v1.2.7-beta[m[33m)[m HEAD@{85}: commit: http接口加入验签规则 修改原有请求的大写字母
+[33m37fd204[m[33m ([m[1;33mtag: v1.2.6-beta[m[33m)[m HEAD@{86}: commit: 更新新手引导
+[33m1293449[m HEAD@{87}: pull: Fast-forward
+[33m95e6830[m HEAD@{88}: commit: 同步换皮更新 去除部分界面旧材质 更新新手引导
+[33m5d19a3a[m HEAD@{89}: reset: moving to origin/master
+[33m5d19a3a[m HEAD@{90}: reset: moving to origin/master
+[33m3deffd2[m[33m ([m[1;33mtag: v1.2.5-beta[m[33m)[m HEAD@{91}: reset: moving to HEAD
+[33m3deffd2[m[33m ([m[1;33mtag: v1.2.5-beta[m[33m)[m HEAD@{92}: reset: moving to HEAD
+[33m3deffd2[m[33m ([m[1;33mtag: v1.2.5-beta[m[33m)[m HEAD@{93}: reset: moving to HEAD
+[33m3deffd2[m[33m ([m[1;33mtag: v1.2.5-beta[m[33m)[m HEAD@{94}: commit: 更新商城bug 增加复制ID按钮
+[33mbb69d85[m[33m ([m[1;33mtag: v1.0.3-release[m[33m)[m HEAD@{95}: pull: Fast-forward
+[33m14dc1cf[m HEAD@{96}: pull: Fast-forward
+[33m194efd6[m[33m ([m[1;33mtag: v1.2.4-beta[m[33m)[m HEAD@{97}: commit: 更新项目为2.4.5
+[33m08cf401[m[33m ([m[1;33mtag: v1.2.3-beta[m[33m, [m[1;33mtag: v1.0.2-release[m[33m)[m HEAD@{98}: commit: 更新新手引导 增加微授权框判断
+[33m23bb1c4[m[33m ([m[1;33mtag: v1.0.1-release[m[33m)[m HEAD@{99}: pull: Merge made by the 'recursive' strategy.
+[33m12e1b0f[m HEAD@{100}: commit: 开始游戏界面更新 更多游戏bug修复
+[33m98e46d2[m HEAD@{101}: pull: Fast-forward
+[33mb59761d[m[33m ([m[1;33mtag: v1.2.2-beta[m[33m)[m HEAD@{102}: commit: 恢复兑换使用的G币 修改图源
+[33mbfc0529[m HEAD@{103}: pull: Fast-forward
+[33m43b8e21[m HEAD@{104}: commit: 修复锦标赛详细界面奖励显示错误
+[33m780df1f[m[33m ([m[1;33mtag: v1.2.1-beta[m[33m)[m HEAD@{105}: commit: 更新新手引导
+[33m6e96880[m HEAD@{106}: commit: 更新新手引导 更新加载优化
+[33m653beb7[m HEAD@{107}: pull: Fast-forward
+[33md070aa7[m HEAD@{108}: pull: Fast-forward
+[33m9f4a8aa[m HEAD@{109}: commit: 更新配置 更新商城加载 兑换修改为主页
+[33m5deddd7[m HEAD@{110}: commit: 配置更新
+[33m9625e02[m HEAD@{111}: commit: 更新字体配置信息
+[33m82d06b2[m HEAD@{112}: commit: 界面增加字体配置 增加icon配置
+[33m9a3f764[m HEAD@{113}: pull: Fast-forward
+[33mfccb0ca[m[33m ([m[1;33mtag: v1.2.0-beta[m[33m, [m[1;33mtag: v1.0.0-release[m[33m)[m HEAD@{114}: commit: 图源整理 对接等级信息 对接游戏信息
+[33m5e71fbf[m HEAD@{115}: commit: 更新排行榜分页处理 更新主界面scrollview
+[33ma71a33f[m HEAD@{116}: pull: Fast-forward
+[33m1768a13[m[33m ([m[1;33mtag: v1.1.9-beta[m[33m)[m HEAD@{117}: commit: 更新排行榜显示机制 更新比赛显示机制 对接微信分享
+[33m6d11938[m HEAD@{118}: pull: Fast-forward
+[33m21f6381[m HEAD@{119}: pull: Fast-forward
+[33m3d7d2b3[m HEAD@{120}: pull: Fast-forward
+[33m78741c4[m HEAD@{121}: pull: Fast-forward
+[33m6c31a89[m HEAD@{122}: pull: Fast-forward
+[33mb32b75c[m HEAD@{123}: pull: Fast-forward
+[33md2d94ca[m HEAD@{124}: commit: 加入阿拉丁的埋点
+[33mc29f98d[m HEAD@{125}: commit: 更新配置加入platId 加入埋点
+[33m7a2a43d[m HEAD@{126}: pull: Fast-forward
+[33me659365[m[33m ([m[1;33mtag: v1.1.8-beta[m[33m)[m HEAD@{127}: commit: 更新绑定界面
+[33m9b46f76[m HEAD@{128}: pull: Fast-forward
+[33m47e4174[m[33m ([m[1;33mtag: v1.1.7-beta[m[33m)[m HEAD@{129}: commit: 更新账号登录
+[33m438b745[m HEAD@{130}: pull: Fast-forward
+[33m14b39a0[m HEAD@{131}: pull: Fast-forward
+[33md45f1fb[m HEAD@{132}: pull: Fast-forward
+[33m4c10ea3[m HEAD@{133}: pull: Fast-forward
+[33m5d00e73[m HEAD@{134}: pull: Merge made by the 'recursive' strategy.
+[33m86e3e5b[m HEAD@{135}: commit: 更新效果
+[33ma1abae4[m HEAD@{136}: pull: Fast-forward
+[33m875beae[m[33m ([m[1;33mtag: v1.1.6-beta[m[33m)[m HEAD@{137}: commit: 更新新手引导
+[33m522676b[m HEAD@{138}: pull: Fast-forward
+[33mc912b42[m[33m ([m[1;33mtag: v1.1.5-beta[m[33m)[m HEAD@{139}: commit: 更新资源
+[33mb709f07[m[33m ([m[1;33mtag: v1.1.4-beta[m[33m)[m HEAD@{140}: commit: 更新侧边栏菜单 增加新手引导 增加排行解锁提示
+[33m296f2a7[m HEAD@{141}: pull: Fast-forward
+[33m9de4029[m HEAD@{142}: commit: 侧边菜单实装
+[33mfb589c2[m[33m ([m[1;33mtag: v1.1.3-beta[m[33m)[m HEAD@{143}: commit: 增加侧边栏 增加登录界面 优化排行榜
+[33mf539cab[m HEAD@{144}: pull: Fast-forward
+[33mf7cf3eb[m HEAD@{145}: pull: Fast-forward
+[33mfc98983[m HEAD@{146}: pull: Fast-forward
+[33m06bef58[m HEAD@{147}: commit: 增加子界面动画回调
+[33md9ca7a6[m HEAD@{148}: commit: 更新token超时的问题
+[33m4eaf968[m[33m ([m[1;33mtag: v1.1.2-beta[m[33m)[m HEAD@{149}: commit: 更新比赛详情 修复界面跳转的问题
+[33mdb764e8[m[33m ([m[1;33mtag: v1.1.1-beta[m[33m)[m HEAD@{150}: commit: 完善比赛界面展示
+[33ma8c1383[m[33m ([m[1;33mtag: v1.1.0-beta[m[33m)[m HEAD@{151}: commit: 更新竞技赛流程
+[33mad475ad[m HEAD@{152}: pull: Fast-forward
+[33mb538f35[m HEAD@{153}: pull: Fast-forward
+[33m7746de1[m HEAD@{154}: commit: 排行榜界面更新
+[33m893162e[m[33m ([m[1;33mtag: v1.0.10-beta[m[33m)[m HEAD@{155}: pull: Fast-forward
+[33m3753688[m HEAD@{156}: pull: Fast-forward
+[33md1151e3[m HEAD@{157}: commit: 晚上比赛流程 对接排行榜数据
+[33m8bec69d[m HEAD@{158}: pull: Fast-forward
+[33mfe55041[m HEAD@{159}: commit: 修改登录方式 修复重复加载的错误
+[33m07552b6[m HEAD@{160}: pull: Fast-forward
+[33m1e59f06[m HEAD@{161}: reset: moving to HEAD
+[33m1e59f06[m HEAD@{162}: reset: moving to HEAD
+[33m1e59f06[m HEAD@{163}: pull: Fast-forward
+[33meec84c1[m HEAD@{164}: commit: 增加商城支付对接
+[33md02243f[m HEAD@{165}: commit: 更新Post接口 增加商城处理
+[33m3a4913e[m HEAD@{166}: commit: 更新引用路径
+[33m1069721[m HEAD@{167}: commit: 更新引用路径
+[33m9f08ed5[m HEAD@{168}: commit: 增加比赛对接 更新框架结构
+[33mafa51aa[m HEAD@{169}: reset: moving to HEAD
+[33mafa51aa[m HEAD@{170}: reset: moving to HEAD
+[33mafa51aa[m HEAD@{171}: reset: moving to HEAD
+[33mafa51aa[m HEAD@{172}: pull: Fast-forward
+[33m5b31d57[m HEAD@{173}: pull: Fast-forward
+[33m573acf8[m HEAD@{174}: commit: 分拆helper类 封装post和get接口
+[33m79b6675[m HEAD@{175}: pull: Fast-forward
+[33m3f2857d[m HEAD@{176}: commit: 增加商城界面展示 增加弹窗处理
+[33m8433398[m HEAD@{177}: pull: Fast-forward
+[33m650d69a[m HEAD@{178}: commit: 增加page和pop接口 完成个人信息界面
+[33m7e4e387[m HEAD@{179}: commit: 更新多级界面关闭bug
+[33m02d39b3[m HEAD@{180}: commit: 更新二级界面加载动画 更新个人信息界面
+[33md3d9324[m HEAD@{181}: pull: Fast-forward
+[33m0cb7a3c[m HEAD@{182}: commit: 增加比赛界面
+[33m3585e63[m HEAD@{183}: pull: Fast-forward

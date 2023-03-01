@@ -1,0 +1,27 @@
+{
+  "name": "igaoshou-sdk",
+  "version": "0.0.1",
+  "description": "The package template for getting started.",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/igaoshou-sdk/open": {
+      "message": "igaoshou-sdk:open"
+    },
+    "i18n:MAIN_MENU.package.title/igaoshou-sdk/hello": {
+      "message": "igaoshou-sdk:say-hello"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "igaoshou-sdk",
+    "width": 400,
+    "height": 300
+  },
+  "runtime-resource": {
+    "path": "resource",
+    "name": "resource"
+  },
+  "scene-script": "script/igaoshou.ts"
+}

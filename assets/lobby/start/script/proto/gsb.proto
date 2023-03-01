@@ -1,0 +1,162 @@
+syntax = "proto3";
+
+package gsbase;
+option go_package = "./proto;gsbase";
+
+enum Version {
+  major = 0;
+  minor = 1;
+}
+
+service GsBase {
+  // 加入房间
+  rpc JoinRoom(JoinRoomReq) returns (Empty) {}
+  // 离开房间
+  rpc LeaveRoom(LeaveRoomReq) returns (Empty) {}
+  // 心跳
+  rpc Ping(GsbPing) returns (Empty) {}
+  // 聊天
+  rpc Chat(ChatReq) returns (Empty) {}
+
+}
+
+service GsRpc {
+  // 创建房间回调
+  rpc CreateRoom(CreateRoomReq) returns (CreateRoomRsp) {}
+  // 解散房间
+  rpc DismissRoom(DismissRoomReq) returns (DismissRoomRsp) {}
+  // 检查房间是否存在
+  rpc CheckRoomStatus(CheckRoomStatusReq) returns (CheckRoomStatusRsp) {}
+
+}
+
+message Empty{}
+
+message JoinRoomReq {
+  string room_id = 1;
+}
+
+message JoinRoomRsp {
+  string err = 1;
+  RoomInfo room = 2;
+}
+
+message JoinRoomNot {
+  string openid = 1; // 加入的玩家
+  RoomInfo room = 2;
+}
+
+message LeaveRoomReq {
+
+}
+
+message LeaveRoomRsp{
+  string err = 1;
+  string openid = 2; // 离开的玩家
+}
+
+message LeaveRoomNot{
+  string ply_id = 1;
+}
+
+message DismissNot {
+  string msg = 1;
+}
+
+
+// ping
+message GsbPing {
+  int64 now = 1;
+}
+
+message GsbPong {
+  string err = 1;
+  int64 cli_now = 2;  // 客户端上传时间
+  int64 now = 3; // 服务器当前时间
+}
+
+enum ChatType {
+  Text = 0; // 文本
+  Emoji = 1; // 表情
+}
+
+message ChatReq {
+  ChatType type = 1;
+  string content = 2; // 内容
+  string to = 3; // 指定玩家
+}
+
+message ChatRsp {
+  string err = 1;
+}
+
+message ChatNot {
+  string from = 1;
+  string to = 2;
+  ChatType type = 3;
+  string content = 4; // 内容
+}
+
+message CreateRoomReq {
+  string room_id = 1; // 房间ID
+  string properties = 2; // 房间参数，json格式
+  string owner = 3; //创建者
+}
+
+message CreateRoomRsp {
+  string err = 1;
+  string server_id = 2;
+}
+
+message DismissRoomReq {
+  string openid = 1;
+  string room_id = 2; // 房间ID
+}
+
+message DismissRoomRsp {
+  string err = 1;
+}
+
+message Player {
+  string openid = 1;
+  map<string, string> metadata = 2;
+}
+
+message RoomInfo {
+  string room_id = 1; // 房间ID
+  string match_code = 2; // 房间匹配规则
+  string metadata = 3; // 房间参数 json 格式
+  repeated Player players = 4;
+  string owner = 5;
+}
+
+message CheckRoomStatusReq {
+  string room_id = 1;
+}
+
+message CheckRoomStatusRsp {
+  bool exists = 1;
+}
+
+message GetRoomInfoReq {
+  string room_id = 1;
+}
+
+message GetRoomInfoRsp {
+  RoomInfo room = 1;
+}
+
+message UpdateRoomInfoReq {
+  string room_id = 1;
+  map<string, string> properties = 2; // 房间参数，内容自定义
+}
+
+message UpdateRoomInfoRsp {
+  string err = 1;
+}
+
+message SystemMessage {
+  int32 code = 1;
+  string err = 2;
+  string request = 3;
+}

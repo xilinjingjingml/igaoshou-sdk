@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+package match;
+
+message RoomInfo {
+  string room_id = 1;
+  string server_id = 2;
+  string game_gid = 3;
+  string metadata = 4;
+}
+
+message PlayerBrief {
+  string  openid = 1;
+  string headimage = 2;
+  string area_info = 3;
+  string nickname = 4;
+}
+
+message JoinMatchNot {
+  string match_cid = 1; // 比赛配置ID
+  string match_id = 2; // 比赛ID
+  string round_id = 3; // 回合 match
+  int64 rand_seed = 4; // 随机种子
+  string opponent_uid = 5; // 对手ID
+  RoomInfo room_info = 6; // 比赛房间
+  repeated PlayerBrief opponent_list = 7; // 对手列表
+}
+
+message MatchCandidatesNot {
+  string match_cid = 1; // 比赛配置ID
+  repeated string uid_list = 2; // 候选对手列表  
+}
+
+// 匹配确认通知
+message ConfirmationRequestNot {
+  string match_cid = 1;
+  string match_id = 2;
+  repeated PlayerBrief opponent_list = 3; // 对手列表
+}
+
+enum ConfirmOp {
+  Cancel = 0;
+  Confirmed = 1;
+}
+
+message MatchConfirmNot {
+  string match_cid = 1;
+  string match_id = 2;
+  string openid = 3; // 当前确认的玩家
+  ConfirmOp op = 4;
+  repeated string ply_list = 5; // 已经确认玩家列表
+}

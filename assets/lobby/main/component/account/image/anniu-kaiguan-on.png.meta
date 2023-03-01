@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "c3663bbf-e782-4218-9c93-5e41d6b953d5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 105,
+  "height": 48,
+  "platformSettings": {},
+  "subMetas": {
+    "anniu-kaiguan-on": {
+      "ver": "1.0.4",
+      "uuid": "67fc5314-0801-462a-8a11-f8647fe328a6",
+      "rawTextureUuid": "c3663bbf-e782-4218-9c93-5e41d6b953d5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 105,
+      "height": 48,
+      "rawWidth": 105,
+      "rawHeight": 48,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
