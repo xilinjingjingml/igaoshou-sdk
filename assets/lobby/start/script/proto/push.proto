@@ -1,0 +1,77 @@
+syntax = "proto3";
+
+package push;
+//option go_package = "proto;push";
+
+service Push {
+  // 注册到 push server
+  rpc Register(RegisterReq) returns (Empty) {}
+}
+
+message Empty {
+
+}
+
+message SysError {
+  string id = 1;
+  int32 code = 2;
+  string detail = 3;
+  string status = 4;
+}
+
+message RegisterReq {
+  string openid = 1;
+  string token = 2;
+  int64 cli_ver = 3; // 客户端版本
+}
+
+message RegisterRsp {
+
+}
+
+message PushReq {
+  string openid = 1;
+  string route = 2;
+  bytes body = 3;
+}
+
+message PushRsp {
+
+}
+
+message Ping {
+  int64 now = 1; // 客户端发送时间
+  string openid = 2;
+}
+
+message Pong {
+  int64 now = 1; // 客户端发送时间
+  int64 send = 2; // 服务端发送时间
+}
+
+message UpdateItemNot {
+  
+}
+
+message MsgPushNot {
+  int32 show_type = 1; // 显示类型: 0.广播 1.游戏内通知
+  string open_uri = 2; // 打开指定的功能  /match/{match_id}
+  string msg = 3; // 消息内容
+}
+
+// Gs ping
+message GsbPing {
+  int64 now = 1;
+}
+
+message GsbPong {
+  string err = 1;
+  int64 cli_now = 2;  // 客户端上传时间
+  int64 now = 3; // 服务器当前时间
+}
+
+message SystemMessage {
+  int32 code = 1;
+  string err = 2;
+  string request = 3;
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "d1eb28b6-61bb-402f-ae88-bbfb0932824e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 85,
+  "height": 85,
+  "platformSettings": {},
+  "subMetas": {
+    "jiesuan-dikuang-2": {
+      "ver": "1.0.4",
+      "uuid": "eaf33017-4af2-4e0c-a0e0-ee21e4952b5a",
+      "rawTextureUuid": "d1eb28b6-61bb-402f-ae88-bbfb0932824e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 85,
+      "height": 85,
+      "rawWidth": 85,
+      "rawHeight": 85,
+      "borderTop": 15,
+      "borderBottom": 15,
+      "borderLeft": 15,
+      "borderRight": 15,
+      "subMetas": {}
+    }
+  }
+}

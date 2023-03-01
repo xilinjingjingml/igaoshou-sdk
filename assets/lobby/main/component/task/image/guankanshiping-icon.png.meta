@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "72b37f69-8606-48b6-8075-01596ed74558",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 71,
+  "height": 73,
+  "platformSettings": {},
+  "subMetas": {
+    "guankanshiping-icon": {
+      "ver": "1.0.4",
+      "uuid": "8b82aa1f-8a3c-4a94-b06a-1c8831d33a94",
+      "rawTextureUuid": "72b37f69-8606-48b6-8075-01596ed74558",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 71,
+      "height": 73,
+      "rawWidth": 71,
+      "rawHeight": 73,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
