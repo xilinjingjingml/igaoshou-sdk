@@ -1,0 +1,891 @@
+{
+    "white": "#ffffff",
+    "font0": "yishuzi-huobi",
+    "font1": "yishuzi-fangjiandizhu",
+    "weibiColor": "#00e130",
+    "lotteryColor": "#ff784e",
+    "diamondColor": "#ffbb28",
+    "sliver": "icon/silver_medal",
+    "gold": "icon/golden_medal",
+    "wcoin": {
+        "icon": "icon/yinbi7",
+        "size": 35,
+        "font": "$font0",
+        "color": "$weibiColor"
+    },
+    "lottery": {
+        "icon": "icon/daoju-jiangquan",
+        "size": 35,
+        "font": "$font0",
+        "color": "$lotteryColor"
+    },
+    "diamond": {
+        "icon": "icon/daoju-zuanshi2",
+        "size": 35,
+        "font": "$font0",
+        "color": "$diamondColor"
+    },
+    "base": {
+        "nickname": "#ffffff",
+        "wcoin": {
+            "icon": "icon/daoju-weibi",
+            "size": 40,
+            "font": "$font0",
+            "color": "$weibiColor"
+        },
+        "lottery": {
+            "icon": "icon/daoju-jiangquan",
+            "size": 40,
+            "font": "$font0",
+            "color": "$lotteryColor"
+        },
+        "diamond": {
+            "icon": "icon/daoju-zuanshi",
+            "size": 40,
+            "font": "$font0",
+            "color": "$diamondColor"
+        },
+        "itemTitle": "#ffffff",
+        "menuTitle": "#ffffff",
+        "tipMsg": "#ffffff",
+        "loadingTip": "#ffffff",
+        "loadingVal": "#ffffff",
+        "btn": {
+            "color": "#ffffff",
+            "outline": "#371e0566",
+            "lineWidth": 0.2,
+            "size": 25
+        }
+    },
+    "page": {
+        "title": "#ffffff",
+        "btn": "#ffffff"
+    },
+    "pop": {
+        "title": {
+            "size": 38,
+            "color": "#ffffff",
+            "outline": "0000004c",
+            "lineWidth": 0.5
+        },
+        "btn": {
+            "size": 38,
+            "color": "#ffffff",
+            "outline": "0000004c",
+            "lineWidth": 0.5
+        }
+    },
+    "matchMode": {
+        "topMsg": "#ffffff",
+        "matchName": {
+            "color": "#49494a",
+            "bold": true
+        },
+        "matchDesc": "#727682",
+        "matchTime": "#818dab",
+        "matchBtn": "#a0511b",
+        "champion": {
+            "wcoin": {
+                "icon": "icon/huobi-w44",
+                "size": 45,
+                "font": "$font1"
+            },
+            "lottery": {
+                "icon": "icon/jiangquan-w40",
+                "size": 45,
+                "font": "$font1"
+            },
+            "diamond": {
+                "icon": "icon/zuanshi-w36",
+                "size": 45,
+                "font": "$font1"
+            }
+        },
+        "btmTip": {
+            "size": 23,
+            "color": "#49494a",
+            "bold": true
+        },
+        "award": {
+            "wcoin": {
+                "icon": "icon/yinbi7",
+                "size": 20,
+                "font": "$font0",
+                "color": "#49494a"
+            },
+            "lottery": {
+                "icon": "icon/Q5",
+                "size": 20,
+                "font": "$font0",
+                "color": "$lotteryColor"
+            },
+            "diamond": {
+                "icon": "icon/daoju-zuanshi2",
+                "size": 20,
+                "font": "$font0",
+                "color": "$diamondColor"
+            },
+            "medal": {
+                "size": 20,
+                "font": "$font0",
+                "color": "#49494a"
+            }
+        },
+        "gatemoney": {
+            "wcoin": {
+                "icon": "icon/yinbi7",
+                "size": 20,
+                "font": "$font0",
+                "color": "#49494a"
+            },
+            "lottery": {
+                "icon": "icon/Q5",
+                "size": 20,
+                "font": "$font0",
+                "color": "#49494a"
+            },
+            "diamond": {
+                "icon": "icon/daoju-zuanshi3",
+                "size": 20,
+                "font": "$font0",
+                "color": "#49494a"
+            }
+        }
+    },
+    "matchRunning": {
+        "matchName": "#49494a",
+        "state": "#49494a",
+        "vs": "#e34818",
+        "opponent": "#565656",
+        "scoreTip": "#565656",
+        "score": "#e34818",
+        "time": "#49494a",
+        "matchResult": "#49494a",
+        "award": {
+            "wcoin": {
+                "icon": "icon/yinbi7",
+                "size": 40,
+                "font": "$font0",
+                "color": "$weibiColor"
+            },
+            "lottery": {
+                "icon": "icon/daoju-jiangquan1",
+                "size": 40,
+                "font": "$font0",
+                "color": "$lotteryColor"
+            },
+            "diamond": {
+                "icon": "icon/daoju-zuanshi",
+                "size": 40,
+                "font": "$font0",
+                "color": "$diamondColor"
+            }
+        },
+        "gatemoney": {
+            "wcoin": {
+                "icon": "icon/yinbi7",
+                "size": 23,
+                "font": "$font0",
+                "color": "#49494adf"
+            },
+            "lottery": {
+                "icon": "icon/daoju-jiangquan",
+                "size": 23,
+                "font": "$font0",
+                "color": "#49494adf"
+            },
+            "diamond": {
+                "icon": "icon/daoju-zuanshi3",
+                "size": 23,
+                "font": "$font0",
+                "color": "#49494adf"
+            }
+        }
+    },
+    "matchStart": {
+        "userName": {
+            "size": 62,
+            "color": "#ffffff",
+            "outline": "#142e5a7f",
+            "lineWidth": 0.2
+        },
+        "areaInfo": {
+            "size": 28,
+            "color": "#ffffff",
+            "outline": "0000004c",
+            "lineWidth": 0.2
+        },
+        "times": {
+            "size": 28,
+            "color": "#03eeff",
+            "outline": "0000004c",
+            "lineWidth": 0.2
+        },
+        "countDown": "#ffffff",
+        "tip": "#ffffff",
+        "award": {
+            "wcoin": {
+                "icon": "icon/yinbi7",
+                "size": 50,
+                "font": "$font0",
+                "color": "$weibiColor"
+            },
+            "lottery": {
+                "icon": "icon/daoju-jiangquan1",
+                "size": 50,
+                "font": "$font0",
+                "color": "$lotteryColor"
+            },
+            "diamond": {
+                "icon": "icon/daoju-zuanshi",
+                "size": 50,
+                "font": "$font0",
+                "color": "$diamondColor"
+            }
+        },
+        "gatemoney": {
+            "wcoin": {
+                "icon": "icon/yinbi7",
+                "size": 30,
+                "font": "$font0",
+                "color": "$weibiColor"
+            },
+            "lottery": {
+                "icon": "icon/daoju-jiangquan",
+                "size": 30,
+                "font": "$font0",
+                "color": "$lotteryColor"
+            },
+            "diamond": {
+                "icon": "icon/daoju-zuanshi",
+                "size": 30,
+                "font": "$font0",
+                "color": "$diamondColor"
+            }
+        }
+    },
+    "matchDetail": {
+        "matchName": {
+            "color": "#ffffff",
+            "outline": "#0000007f",
+            "lineWidth": 0.2
+        },
+        "matchState": {
+            "color": "#ffffff",
+            "size": 32
+        },
+        "matchTime": "#74ECFF",
+        "matchRank": "#ffffff",
+        "tourneyRank": {
+            "tip": {
+                "size": 28,
+                "color": "#ffffff",
+                "outline": "0000004c",
+                "lineWidth": 0.5
+            },
+            "time": {
+                "size": 24,
+                "color": "#ffffff",
+                "outline": "0000004c",
+                "lineWidth": 0.5
+            },
+            "title": "#5e5e5e",
+            "wcoin": "$wcoin",
+            "lottery": "$lottery",
+            "diamond": "$diamond"
+        },
+        "matchAward": {
+            "wcoin": {
+                "icon": "icon/yinbi7",
+                "size": 40,
+                "font": "$font0",
+                "color": "$weibiColor"
+            },
+            "lottery": {
+                "icon": "icon/daoju-jiangquan1",
+                "size": 40,
+                "font": "$font0",
+                "color": "$lotteryColor"
+            },
+            "diamond": {
+                "icon": "icon/daoju-zuanshi",
+                "size": 40,
+                "font": "$font0",
+                "color": "$diamondColor"
+            }
+        },
+        "matchGrowth": {
+            "silver": {
+                "icon": "$sliver",
+                "size": 40
+            },
+            "gold": {
+                "icon": "$gold",
+                "size": 40
+            },
+            "medal": {
+                "size": 40,
+                "color": "#49494a"
+            },
+            "exp": {
+                "icon": "icon/jiesuan-jingyanzhiicon",
+                "size": 50,
+                "color": "#49494a"
+            }
+        },
+        "players": {
+            "userName": {
+                "color": "#ffffff",
+                "outline": "#0000003f",
+                "lineWidth": 0.2
+            },
+            "score": {
+                "size": 36,
+                "color": "#7487ca"
+            },
+            "rank": "#ffffff"
+        },
+        "shareBtn": "#ffffff",
+        "otherBtn": {
+            "bold": true,
+            "color": "#ffffff"
+        },
+        "btmInfo": {
+            "info": "#ffffff",
+            "wcoin": {
+                "icon": "icon/huobi-w44",
+                "size": 30,
+                "font": "$font0",
+                "color": "$weibiColor"
+            },
+            "lottery": {
+                "icon": "icon/daoju-jiangquan1",
+                "size": 30,
+                "font": "$font0",
+                "color": "$lotteryColor"
+            },
+            "diamond": {
+                "icon": "icon/daoju-zuanshi2",
+                "size": 30,
+                "font": "$font0",
+                "color": "$diamondColor"
+            }
+        },
+        "huafei": {
+            "progress": {
+                "color": "#ffffff",
+                "outline": "#551e87",
+                "lineWidth": 1
+            },
+            "msg": "#ffffff"
+        },
+        "round": {
+            "size": 28,
+            "color": "#ffffff",
+            "outline": "0000004c",
+            "lineWidth": 0.5
+        }
+    },
+    "matchOffline": {
+        "userName": {
+            "size": 34,
+            "color": "#ffffff",
+            "outline": "#0000005f",
+            "lineWidth": 0.2
+        },
+        "tip": {
+            "size": 30,
+            "color": "#ffffff",
+            "outline": "#0000005f",
+            "lineWidth": 0.2
+        },
+        "btn": {
+            "size": 34,
+            "color": "#ffffff",
+            "outline": "#0000005f",
+            "lineWidth": 0.2,
+            "bold": true
+        },
+        "mode": {
+            "result": {
+                "size": 30,
+                "color": "#f98686",
+                "bold": true,
+                "outline": "#0000005f",
+                "lineWidth": 0.2
+            },
+            "vs": {
+                "size": 24,
+                "color": "#ffffff",
+                "outline": "#0000005f",
+                "lineWidth": 0.2
+            },
+            "opponent": {
+                "size": 24,
+                "color": "#ffffff",
+                "outline": "#0000005f",
+                "lineWidth": 0.2
+            },
+            "wcoin": {
+                "icon": "icon/yinbi7",
+                "size": 35,
+                "font": "$font0",
+                "color": "$weibiColor"
+            },
+            "lottery": {
+                "icon": "icon/daoju-jiangquan1",
+                "size": 35,
+                "font": "$font0",
+                "color": "$lotteryColor"
+            },
+            "diamond": "$diamond"
+        }
+    },
+    "address": {
+        "tip": "#ffffff",
+        "btn": "#ffffff",
+        "info": "#000000",
+        "inputName": "#323232",
+        "inputTip": "#8D8D8D",
+        "inputValue": "#8D8D8D",
+        "defaultName": {
+            "color": "#818181",
+            "size": 30
+        },
+        "defaultTip": {
+            "color": "#818181",
+            "size": 22
+        },
+        "regionTitle": "#323232",
+        "regionTip": "#798EAB",
+        "regionName": "#323232"
+    },
+    "cashier": {
+        "cashPrice": "#CF851D",
+        "countDown": "#ffffff",
+        "choose": "#ffffff",
+        "cashName": "#000000",
+        "btn": "#ffffff"
+    },
+    "exchange": {
+        "price": {
+            "size": 33,
+            "font": "$font0",
+            "color": "#fd803d"
+        },
+        "priceMix": {
+            "name": "#323232",
+            "present": "#000000",
+            "wcoin": "$wcoin",
+            "diamond": "$diamond"
+        },
+        "fare": "#CF851D",
+        "desc": "#808080",
+        "unenought": "#ffffff",
+        "tabBg": {
+            "color": "#626262",
+            "outline": "#ffffff33",
+            "lineWidth": 0.2
+        },
+        "tabCk": {
+            "color": "#a3cfff",
+            "outline": "#a3cfff",
+            "lineWidth": 0.2
+        },
+        "btn": "#ffffff",
+        "copyBtn": "#2091D8",
+        "inputTip": "#ffffff",
+        "inputVal": "#ffffff",
+        "adviseTip": "#ffffff",
+        "cart": {
+            "title": "#ffffff",
+            "address": "#ffffff",
+            "tip": "#ffffff",
+            "btn": "#ffffff"
+        },
+        "bill": {
+            "time": "#798EAB",
+            "tip": "#000000",
+            "btn": "#ffffff",
+            "shipment": "#323232",
+            "name": "#000000",
+            "val": "#323232",
+            "bigTip": "#000000"
+        },
+        "goods": {
+            "time": "#486d85",
+            "state": {
+                "color": "#486d85",
+                "size": 31,
+                "bold": true
+            },
+            "name": {
+                "color": "#486d85",
+                "size": 31,
+                "bold": true
+            },
+            "count": "#818dab",
+            "tip": "#818dab",
+            "info": {
+                "color": "#727682",
+                "size": 20
+            },
+            "give": {
+                "icon": "icon/daoju-jiangquan",
+                "size": 30,
+                "color": "#ff8300"
+            },
+            "giveState": "#e34818",
+            "btn": "#ffffff",
+            "setCount": "#ffffff"
+        },
+        "guide": {
+            "title": "#ffffff",
+            "detail": "#323232"
+        },
+        "itemMode": {
+            "name": "#47617c"
+        },
+        "money": {
+            "price": {
+                "color": "#ffffff",
+                "size": 50
+            },
+            "count": {
+                "color": "#ffffff",
+                "size": 20
+            }
+        },
+        "search": {
+            "inputTip": "#79829f",
+            "inputVal": "#79829f",
+            "btn": "#5d5d5d",
+            "historyTip": "#000000"
+        },
+        "substance": {
+            "btn": "#ffffff",
+            "name": "#ffffff",
+            "desc": "#ffffff",
+            "title": "#000000",
+            "sales": "#789EAB",
+            "noStock": "#323232",
+            "curAddress": "#666666",
+            "selAddress": "#798EAB",
+            "itemAddress": "#323232",
+            "numTip": "#ffffff",
+            "setCount": "#ffffff"
+        },
+        "confirm": {
+            "itemNum": "#0D910A",
+            "lottery": {
+                "icon": "icon/daoju-jiangquan1",
+                "color": "#ffffff"
+            }
+        },
+        "token": {
+            "goodsNum": {
+                "color": "#ffffff",
+                "size": 40
+            },
+            "lottery": {
+                "icon": "icon/daoju-jiangquan1",
+                "font": "$font0",
+                "color": "#fd803d",
+                "size": 30
+            }
+        },
+        "tabName": {
+            "color": "#ffffff",
+            "outline": "#62626233",
+            "lineWidth": 0.5
+        }
+    },
+    "league": {
+        "tabBg": "#ffffff",
+        "tabCk": "#ffd64c",
+        "time": "#d94646",
+        "tip": "#565656",
+        "wcoin": {
+            "icon": "icon/yinbi7",
+            "size": 45,
+            "font": "$font0",
+            "color": "$weibiColor"
+        },
+        "lottery": {
+            "icon": "icon/daoju-jiangquan1",
+            "size": 45,
+            "font": "$font0",
+            "color": "$lotteryColor"
+        },
+        "diamond": {
+            "icon": "icon/daoju-zuanshi",
+            "size": 45,
+            "font": "$font0",
+            "color": "$diamondColor"
+        },
+        "brief": {
+            "rank": {
+                "color": "#ffffff",
+                "font": "$font0",
+                "size": 40
+            },
+            "userName": {
+                "color": "#565656",
+                "bold": true
+            },
+            "medal": {
+                "color": "#565656",
+                "font": "$font0",
+                "size": 40
+            }
+        },
+        "condition": {
+            "title": {
+                "color": "#49494a",
+                "bold": true
+            },
+            "wcoin": {
+                "icon": "icon/yinbi7",
+                "size": 56,
+                "font": "$font0",
+                "color": "$weibiColor"
+            },
+            "lottery": {
+                "icon": "icon/daoju-jiangquan",
+                "size": 56,
+                "font": "$font0",
+                "color": "$lotteryColor"
+            },
+            "diamond": {
+                "icon": "icon/daoju-zuanshi",
+                "size": 56,
+                "font": "$font0",
+                "color": "$diamondColor"
+            },
+            "msg": "#818dab"
+        },
+        "itemMode": {
+            "userName": "#565656",
+            "rank": "#565656",
+            "wcoin": "$wcoin",
+            "lottery": {
+                "icon": "icon/daoju-jiangquan",
+                "size": 28,
+                "font": "$font0",
+                "color": "$lotteryColor"
+            },
+            "diamond": "$diamond",
+            "null": "#2e2e2e",
+            "silver": {
+                "icon": "$sliver",
+                "color": "#565656",
+                "font": "$font0",
+                "size": 28
+            },
+            "gold": {
+                "icon": "$gold",
+                "color": "#565656",
+                "font": "$font0",
+                "size": 28
+            }
+        },
+        "settlement": {
+            "tip": "#5e5e5e",
+            "val": "#323232",
+            "time": "#323232",
+            "wcoin": "$wcoin",
+            "lottery": "$lottery",
+            "diamond": "$diamond"
+        }
+    },
+    "level": {
+        "name": "#ca2a1a",
+        "level": {
+            "font": "$font0",
+            "color": "#fff9fe"
+        }
+    },
+    "account": {
+        "msg": "#ffffff",
+        "tip": "#E06D08",
+        "btn": "#ffffff",
+        "inputName": "#ffffff",
+        "inputTip": "#828DAB",
+        "inputDesc": "#ccd7f3",
+        "inputVal": "#828DAB",
+        "inputWarn": "#ff6c6c",
+        "infoName": "#727d89",
+        "infoVal": "#7383b7"
+    },
+    "personal": {
+        "userName": "#ffffff",
+        "btn": "#ffffff",
+        "copyBtn": "#ffffff",
+        "winTip": "#000000",
+        "winVal": "#000000",
+        "diagramWin": "#FB9227",
+        "diagramLost": "#535353",
+        "settingName": "#000000",
+        "settingVal": "#000000"
+    },
+    "task": {
+        "name": "#000000",
+        "val": "#ffffff",
+        "btn": "#ffffff",
+        "wcoin": "$wcoin",
+        "lottery": {
+            "icon": "icon/daoju-jiangquan1",
+            "size": 35,
+            "font": "$font0",
+            "color": "$lotteryColor"
+        },
+        "diamond": "$diamond"
+    },
+    "awardPop": {
+        "wcoin": "$wcoin",
+        "lottery": "$lottery",
+        "diamond": "$diamond",
+        "awardNum": "#ffffff"
+    },
+    "shop": {
+        "btn": "#ffffff",
+        "boxTitle": "#363636",
+        "boxName": "#000000",
+        "boxTime": "#9f64cc",
+        "worthTip": "#ffffff",
+        "worthVla": {
+            "color": "#ffffff",
+            "outline": "#cd4c1fa3",
+            "lineWidth": 3
+        },
+        "priceTip": "#47617c",
+        "priceVal": "#47617c",
+        "countDown": "#ffffff",
+        "wcoin": "$wcoin",
+        "lottery": {
+            "icon": "icon/daoju-jiangquan1",
+            "size": 65,
+            "font": "$font0",
+            "color": "$lotteryColor"
+        },
+        "diamond": {
+            "icon": "icon/daoju-zuanshi",
+            "scale": 0.7,
+            "size": 65,
+            "font": "$font0",
+            "color": "#ffffff"
+        },
+        "itemLink": "#323232",
+        "stress": {
+            "name": "#FFFFFF",
+            "desc": "#4ffdfb"
+        }
+    },
+    "activity": {
+        "sign": {
+            "day": "#ffffff",
+            "tip": "#D1C9FF",
+            "award": {
+                "color": "#BE8841",
+                "bold": true
+            },
+            "multipleTip": "#515151",
+            "multipleWarn": "#FF4A4A",
+            "btn": "#ffffff",
+            "singleBtn": "#548FEE"
+        },
+        "lucky": {
+            "draw": {
+                "color": "#ffffff",
+                "outline": "#7A0934",
+                "lineWidth": 1.5
+            },
+            "count": "#ffffFF",
+            "tip": "#49494a",
+            "wcoin": {
+                "icon": "icon/yinbi7",
+                "size": 35,
+                "font": "$font0",
+                "color": "#d3522f"
+            },
+            "lottery": {
+                "icon": "icon/daoju-jiangquan",
+                "size": 35,
+                "font": "$font0",
+                "color": "#d3522f"
+            },
+            "diamond": {
+                "icon": "icon/daoju-zuanshi",
+                "size": 35,
+                "font": "$font0",
+                "color": "#d3522f"
+            },
+            "wcoinName": {
+                "size": 30,
+                "bold": true,
+                "color": "#d3522f"
+            },
+            "lotteryName": {
+                "size": 30,
+                "bold": true,
+                "color": "#d3522f"
+            },
+            "diamondName": {
+                "size": 30,
+                "bold": true,
+                "color": "#d3522f"
+            }
+        },
+        "freeAward": {
+            "name": "#ffffff",
+            "desc": "#5e5e5e",
+            "val": "#ffffff",
+            "wcoin": "$wcoin",
+            "btn": {
+                "color": "#ffffff",
+                "outline": "#C6530F",
+                "lineWidth": 2.5
+            },
+            "countdown": "#ffffff",
+            "msg": "#000000",
+            "warn": "#544B4B"
+        },
+        "broke": {
+            "name": "#000000",
+            "desc": "#5e5e5e",
+            "val": "#ffffff",
+            "wcoin": "$wcoin",
+            "btn": {
+                "color": "#ffffff",
+                "outline": "#C6530F",
+                "lineWidth": 2.5
+            },
+            "countdown": "#ffffff",
+            "msg": "#000000",
+            "warn": "#544B4B"
+        },
+        "redpacket": {
+            "wcoin": {
+                "icon": "icon/yinbi7",
+                "size": 35,
+                "font": "$font0",
+                "color": "$weibiColor"
+            },
+            "lottery": {
+                "icon": "icon/daoju-jiangquan",
+                "size": 35,
+                "font": "$font0",
+                "color": "$lotteryColor"
+            },
+            "diamond": {
+                "icon": "icon/daoju-zuanshi",
+                "size": 35,
+                "font": "$font0",
+                "color": "$diamondColor"
+            },
+            "countdown": "#ffffff",
+            "timeTip": "#C8BCFF",
+            "timeVal": "#FBEF4C"
+        }
+    }
+}

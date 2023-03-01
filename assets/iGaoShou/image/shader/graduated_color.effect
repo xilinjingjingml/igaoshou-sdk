@@ -1,0 +1,68 @@
+CCEffect %{
+  techniques: 
+    - passes: 
+      - vert: vs
+        frag: fs
+        blendState:
+          targets:
+          - blend: true
+        rasterizerState:
+          cullMode: none
+        properties: 
+          texture : { value: white }
+          discolor: { value: [0,0,0,0], editor: { type: color } }
+%}
+
+CCProgram vs %{
+
+  precision highp float;
+
+  #include <cc-global>
+  
+  in vec3 a_position;
+
+  in vec2 a_uv0;
+  out vec2 v_uv0;
+    
+  void main () {
+    vec4 pos = vec4(a_position, 1);
+    pos = cc_matViewProj * pos;
+    v_uv0 = a_uv0;    
+    gl_Position = pos;
+  }
+ 
+}%
+
+CCProgram fs %{
+
+  precision highp float;
+
+  #include <alpha-test>
+  #include <texture>
+
+  in vec2 v_uv0;
+  in vec4 v_color;
+
+  uniform sampler2D texture;
+  
+  uniform inputData {
+    vec4 discolor;
+  };
+
+  void main () {
+    vec4 color = vec4(1, 1, 1, 1);
+    CCTexture(texture, v_uv0, color);  
+    vec3 scale = normalize(vec3(discolor.r, discolor.g, discolor.b));
+
+    float gray = scale.r * color.r + scale.g * color.g + scale.b * color.b;
+    //float gray = color.r * 0.299 + color.g * 0.587 + color.b * 0.114;
+    //float gray = pow(color.r, 2.2) * 0.299 + pow(color.g, 2.2) * 0.587 + pow(color.b, 2.2) * .114;
+    //gray = pow(gray, (1.0 / 2.2));
+    vec4 newColor = vec4(gray, gray, gray, 1) * discolor;
+    newColor.a = color.a;
+    ALPHA_TEST(newColor);
+    gl_FragColor = newColor;
+  }
+
+}%
+

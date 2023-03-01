@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "d2de4ee8-b974-4a9f-8d27-e7bafa1fc20d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 48,
+  "height": 68,
+  "platformSettings": {},
+  "subMetas": {
+    "QRDD-ICON-zuobiao": {
+      "ver": "1.0.4",
+      "uuid": "563ece87-558f-4a05-ba48-31ad3df7e578",
+      "rawTextureUuid": "d2de4ee8-b974-4a9f-8d27-e7bafa1fc20d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 48,
+      "height": 68,
+      "rawWidth": 48,
+      "rawHeight": 68,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "19f864de-d183-49ca-8a4b-e5a7ead471a4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 108,
+  "height": 40,
+  "platformSettings": {},
+  "subMetas": {
+    "sousuocidi1-1": {
+      "ver": "1.0.4",
+      "uuid": "ab9292b3-7196-4a8c-ac56-267cb7a58b7f",
+      "rawTextureUuid": "19f864de-d183-49ca-8a4b-e5a7ead471a4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 108,
+      "height": 40,
+      "rawWidth": 108,
+      "rawHeight": 40,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 42,
+      "borderRight": 45,
+      "subMetas": {}
+    }
+  }
+}

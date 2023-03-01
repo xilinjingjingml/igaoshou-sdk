@@ -1,0 +1,27 @@
+
+zaiwan4ju1.png
+size: 110,150
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: false
+  xy: 2, 2
+  size: 103, 52
+  orig: 103, 52
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 2, 56
+  size: 82, 92
+  orig: 82, 92
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 86, 123
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+zhuanpananniou.png
+size: 351,166
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 2
+  size: 162, 225
+  orig: 162, 225
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 229, 26
+  size: 120, 138
+  orig: 120, 138
+  offset: 0, 0
+  index: -1

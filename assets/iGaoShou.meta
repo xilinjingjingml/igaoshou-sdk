@@ -1,0 +1,24 @@
+{
+  "ver": "1.1.2",
+  "uuid": "ed4eabf0-c90e-4eb1-a959-6b4ea4649346",
+  "isBundle": true,
+  "bundleName": "igaoshou",
+  "priority": 1,
+  "compressionType": {
+    "wechatgame": "default",
+    "web-mobile": "default"
+  },
+  "optimizeHotUpdate": {
+    "wechatgame": false,
+    "web-mobile": false
+  },
+  "inlineSpriteFrames": {
+    "wechatgame": true,
+    "web-mobile": true
+  },
+  "isRemoteBundle": {
+    "wechatgame": false,
+    "web-mobile": false
+  },
+  "subMetas": {}
+}

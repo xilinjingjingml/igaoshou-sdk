@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "46df46b3-fd50-47f4-bfd5-2a13e13b4429",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 252,
+  "height": 83,
+  "platformSettings": {},
+  "subMetas": {
+    "SessionLenovo": {
+      "ver": "1.0.4",
+      "uuid": "88b88848-1bfb-4caa-926e-b1e5b83e3e30",
+      "rawTextureUuid": "46df46b3-fd50-47f4-bfd5-2a13e13b4429",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 252,
+      "height": 83,
+      "rawWidth": 252,
+      "rawHeight": 83,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
